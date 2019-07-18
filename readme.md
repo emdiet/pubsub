@@ -51,7 +51,7 @@ subscribe to `\echo`
 ```
  l = new WebSocket("ws://localhost:11711/echo"); l.onmessage = m => console.log(m.data)
 ```
-just send whatever
+just send whatever, it will only be reflected back to you.
 ```
  l.send("literally anything")
 ```
